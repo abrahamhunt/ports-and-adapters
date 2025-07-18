@@ -12,6 +12,8 @@ private struct FriendsScreen: View {
     
     var body: some View {
         VStack {
+            Text("Friends Screen")
+            
             ForEach(viewModel.friends) { friend in
                 Button {
                     viewModel.didTap(user: friend)
@@ -29,8 +31,12 @@ private struct FriendsScreen: View {
                 }
             }
         }
-        .sheet(item: $viewModel.profile, content: {
-            Text($0.user.name)
+        .sheet(item: $viewModel.profile, content: { userPlaceholder in
+            VStack {
+                Text("This should be the profile page for")
+                
+                Text(userPlaceholder.user.name)
+            }
         })
     }
 }

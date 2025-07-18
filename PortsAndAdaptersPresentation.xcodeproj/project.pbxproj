@@ -6,41 +6,48 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4D2E29C5DF00A09198 /* Friends */; };
+		D755CA502E29C5E400A09198 /* UserProfile in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4F2E29C5E400A09198 /* UserProfile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		D755CA1E2E29C46600A09198 /* PBXContainerItemProxy */ = {
+		D78ED93E2E27CA9C0041D8C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D755CA052E29C46400A09198 /* Project object */;
+			containerPortal = D78ED9252E27CA9A0041D8C7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D755CA0C2E29C46400A09198;
+			remoteGlobalIDString = D78ED92C2E27CA9A0041D8C7;
 			remoteInfo = PortsAndAdaptersPresentation;
 		};
-		D755CA282E29C46600A09198 /* PBXContainerItemProxy */ = {
+		D78ED9482E27CA9C0041D8C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D755CA052E29C46400A09198 /* Project object */;
+			containerPortal = D78ED9252E27CA9A0041D8C7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D755CA0C2E29C46400A09198;
+			remoteGlobalIDString = D78ED92C2E27CA9A0041D8C7;
 			remoteInfo = PortsAndAdaptersPresentation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D755CA0D2E29C46400A09198 /* PortsAndAdaptersPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortsAndAdaptersPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D755CA1D2E29C46600A09198 /* PortsAndAdaptersPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D755CA272E29C46600A09198 /* PortsAndAdaptersPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortsAndAdaptersPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78ED93D2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78ED9472E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78ED95B2E27CB170041D8C7 /* Friends */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Friends; sourceTree = "<group>"; };
+		D78ED95C2E27CB370041D8C7 /* UserProfile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UserProfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D755CA0F2E29C46400A09198 /* PortsAndAdaptersPresentation */ = {
+		D78ED92F2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PortsAndAdaptersPresentation;
 			sourceTree = "<group>";
 		};
-		D755CA202E29C46600A09198 /* PortsAndAdaptersPresentationTests */ = {
+		D78ED9402E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PortsAndAdaptersPresentationTests;
 			sourceTree = "<group>";
 		};
-		D755CA2A2E29C46600A09198 /* PortsAndAdaptersPresentationUITests */ = {
+		D78ED94A2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PortsAndAdaptersPresentationUITests;
 			sourceTree = "<group>";
@@ -48,21 +55,23 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D755CA0A2E29C46400A09198 /* Frameworks */ = {
+		D78ED92A2E27CA9A0041D8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */,
+				D755CA502E29C5E400A09198 /* UserProfile in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78ED93A2E27CA9C0041D8C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D755CA1A2E29C46600A09198 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D755CA242E29C46600A09198 /* Frameworks */ = {
+		D78ED9442E27CA9C0041D8C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +81,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D755CA042E29C46400A09198 = {
+		D755CA4C2E29C5DF00A09198 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D755CA0F2E29C46400A09198 /* PortsAndAdaptersPresentation */,
-				D755CA202E29C46600A09198 /* PortsAndAdaptersPresentationTests */,
-				D755CA2A2E29C46600A09198 /* PortsAndAdaptersPresentationUITests */,
-				D755CA0E2E29C46400A09198 /* Products */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D78ED9242E27CA9A0041D8C7 = {
+			isa = PBXGroup;
+			children = (
+				D78ED95C2E27CB370041D8C7 /* UserProfile */,
+				D78ED95B2E27CB170041D8C7 /* Friends */,
+				D78ED92F2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */,
+				D78ED9402E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests */,
+				D78ED94A2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests */,
+				D755CA4C2E29C5DF00A09198 /* Frameworks */,
+				D78ED92E2E27CA9A0041D8C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D755CA0E2E29C46400A09198 /* Products */ = {
+		D78ED92E2E27CA9A0041D8C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D755CA0D2E29C46400A09198 /* PortsAndAdaptersPresentation.app */,
-				D755CA1D2E29C46600A09198 /* PortsAndAdaptersPresentationTests.xctest */,
-				D755CA272E29C46600A09198 /* PortsAndAdaptersPresentationUITests.xctest */,
+				D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */,
+				D78ED93D2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests.xctest */,
+				D78ED9472E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +114,136 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D755CA0C2E29C46400A09198 /* PortsAndAdaptersPresentation */ = {
+		D78ED92C2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D755CA312E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentation" */;
+			buildConfigurationList = D78ED9512E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentation" */;
 			buildPhases = (
-				D755CA092E29C46400A09198 /* Sources */,
-				D755CA0A2E29C46400A09198 /* Frameworks */,
-				D755CA0B2E29C46400A09198 /* Resources */,
+				D78ED9292E27CA9A0041D8C7 /* Sources */,
+				D78ED92A2E27CA9A0041D8C7 /* Frameworks */,
+				D78ED92B2E27CA9A0041D8C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D755CA0F2E29C46400A09198 /* PortsAndAdaptersPresentation */,
+				D78ED92F2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */,
 			);
 			name = PortsAndAdaptersPresentation;
 			packageProductDependencies = (
+				D755CA4D2E29C5DF00A09198 /* Friends */,
+				D755CA4F2E29C5E400A09198 /* UserProfile */,
 			);
 			productName = PortsAndAdaptersPresentation;
-			productReference = D755CA0D2E29C46400A09198 /* PortsAndAdaptersPresentation.app */;
+			productReference = D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D755CA1C2E29C46600A09198 /* PortsAndAdaptersPresentationTests */ = {
+		D78ED93C2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D755CA342E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationTests" */;
+			buildConfigurationList = D78ED9542E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationTests" */;
 			buildPhases = (
-				D755CA192E29C46600A09198 /* Sources */,
-				D755CA1A2E29C46600A09198 /* Frameworks */,
-				D755CA1B2E29C46600A09198 /* Resources */,
+				D78ED9392E27CA9C0041D8C7 /* Sources */,
+				D78ED93A2E27CA9C0041D8C7 /* Frameworks */,
+				D78ED93B2E27CA9C0041D8C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D755CA1F2E29C46600A09198 /* PBXTargetDependency */,
+				D78ED93F2E27CA9C0041D8C7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D755CA202E29C46600A09198 /* PortsAndAdaptersPresentationTests */,
+				D78ED9402E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests */,
 			);
 			name = PortsAndAdaptersPresentationTests;
 			packageProductDependencies = (
 			);
 			productName = PortsAndAdaptersPresentationTests;
-			productReference = D755CA1D2E29C46600A09198 /* PortsAndAdaptersPresentationTests.xctest */;
+			productReference = D78ED93D2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D755CA262E29C46600A09198 /* PortsAndAdaptersPresentationUITests */ = {
+		D78ED9462E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D755CA372E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationUITests" */;
+			buildConfigurationList = D78ED9572E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationUITests" */;
 			buildPhases = (
-				D755CA232E29C46600A09198 /* Sources */,
-				D755CA242E29C46600A09198 /* Frameworks */,
-				D755CA252E29C46600A09198 /* Resources */,
+				D78ED9432E27CA9C0041D8C7 /* Sources */,
+				D78ED9442E27CA9C0041D8C7 /* Frameworks */,
+				D78ED9452E27CA9C0041D8C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D755CA292E29C46600A09198 /* PBXTargetDependency */,
+				D78ED9492E27CA9C0041D8C7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D755CA2A2E29C46600A09198 /* PortsAndAdaptersPresentationUITests */,
+				D78ED94A2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests */,
 			);
 			name = PortsAndAdaptersPresentationUITests;
 			packageProductDependencies = (
 			);
 			productName = PortsAndAdaptersPresentationUITests;
-			productReference = D755CA272E29C46600A09198 /* PortsAndAdaptersPresentationUITests.xctest */;
+			productReference = D78ED9472E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D755CA052E29C46400A09198 /* Project object */ = {
+		D78ED9252E27CA9A0041D8C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					D755CA0C2E29C46400A09198 = {
+					D78ED92C2E27CA9A0041D8C7 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					D755CA1C2E29C46600A09198 = {
+					D78ED93C2E27CA9C0041D8C7 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = D755CA0C2E29C46400A09198;
+						TestTargetID = D78ED92C2E27CA9A0041D8C7;
 					};
-					D755CA262E29C46600A09198 = {
+					D78ED9462E27CA9C0041D8C7 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = D755CA0C2E29C46400A09198;
+						TestTargetID = D78ED92C2E27CA9A0041D8C7;
 					};
 				};
 			};
-			buildConfigurationList = D755CA082E29C46400A09198 /* Build configuration list for PBXProject "PortsAndAdaptersPresentation" */;
+			buildConfigurationList = D78ED9282E27CA9A0041D8C7 /* Build configuration list for PBXProject "PortsAndAdaptersPresentation" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D755CA042E29C46400A09198;
+			mainGroup = D78ED9242E27CA9A0041D8C7;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D755CA0E2E29C46400A09198 /* Products */;
+			productRefGroup = D78ED92E2E27CA9A0041D8C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D755CA0C2E29C46400A09198 /* PortsAndAdaptersPresentation */,
-				D755CA1C2E29C46600A09198 /* PortsAndAdaptersPresentationTests */,
-				D755CA262E29C46600A09198 /* PortsAndAdaptersPresentationUITests */,
+				D78ED92C2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */,
+				D78ED93C2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests */,
+				D78ED9462E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D755CA0B2E29C46400A09198 /* Resources */ = {
+		D78ED92B2E27CA9A0041D8C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D755CA1B2E29C46600A09198 /* Resources */ = {
+		D78ED93B2E27CA9C0041D8C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D755CA252E29C46600A09198 /* Resources */ = {
+		D78ED9452E27CA9C0041D8C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +253,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D755CA092E29C46400A09198 /* Sources */ = {
+		D78ED9292E27CA9A0041D8C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D755CA192E29C46600A09198 /* Sources */ = {
+		D78ED9392E27CA9C0041D8C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D755CA232E29C46600A09198 /* Sources */ = {
+		D78ED9432E27CA9C0041D8C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +277,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D755CA1F2E29C46600A09198 /* PBXTargetDependency */ = {
+		D78ED93F2E27CA9C0041D8C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D755CA0C2E29C46400A09198 /* PortsAndAdaptersPresentation */;
-			targetProxy = D755CA1E2E29C46600A09198 /* PBXContainerItemProxy */;
+			target = D78ED92C2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */;
+			targetProxy = D78ED93E2E27CA9C0041D8C7 /* PBXContainerItemProxy */;
 		};
-		D755CA292E29C46600A09198 /* PBXTargetDependency */ = {
+		D78ED9492E27CA9C0041D8C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D755CA0C2E29C46400A09198 /* PortsAndAdaptersPresentation */;
-			targetProxy = D755CA282E29C46600A09198 /* PBXContainerItemProxy */;
+			target = D78ED92C2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */;
+			targetProxy = D78ED9482E27CA9C0041D8C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D755CA2F2E29C46600A09198 /* Debug */ = {
+		D78ED94F2E27CA9C0041D8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		D755CA302E29C46600A09198 /* Release */ = {
+		D78ED9502E27CA9C0041D8C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +409,7 @@
 			};
 			name = Release;
 		};
-		D755CA322E29C46600A09198 /* Debug */ = {
+		D78ED9522E27CA9C0041D8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -416,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		D755CA332E29C46600A09198 /* Release */ = {
+		D78ED9532E27CA9C0041D8C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -444,7 +465,7 @@
 			};
 			name = Release;
 		};
-		D755CA352E29C46600A09198 /* Debug */ = {
+		D78ED9552E27CA9C0041D8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		D755CA362E29C46600A09198 /* Release */ = {
+		D78ED9562E27CA9C0041D8C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +501,7 @@
 			};
 			name = Release;
 		};
-		D755CA382E29C46600A09198 /* Debug */ = {
+		D78ED9582E27CA9C0041D8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -496,7 +517,7 @@
 			};
 			name = Debug;
 		};
-		D755CA392E29C46600A09198 /* Release */ = {
+		D78ED9592E27CA9C0041D8C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -515,43 +536,54 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D755CA082E29C46400A09198 /* Build configuration list for PBXProject "PortsAndAdaptersPresentation" */ = {
+		D78ED9282E27CA9A0041D8C7 /* Build configuration list for PBXProject "PortsAndAdaptersPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D755CA2F2E29C46600A09198 /* Debug */,
-				D755CA302E29C46600A09198 /* Release */,
+				D78ED94F2E27CA9C0041D8C7 /* Debug */,
+				D78ED9502E27CA9C0041D8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D755CA312E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentation" */ = {
+		D78ED9512E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D755CA322E29C46600A09198 /* Debug */,
-				D755CA332E29C46600A09198 /* Release */,
+				D78ED9522E27CA9C0041D8C7 /* Debug */,
+				D78ED9532E27CA9C0041D8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D755CA342E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationTests" */ = {
+		D78ED9542E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D755CA352E29C46600A09198 /* Debug */,
-				D755CA362E29C46600A09198 /* Release */,
+				D78ED9552E27CA9C0041D8C7 /* Debug */,
+				D78ED9562E27CA9C0041D8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D755CA372E29C46600A09198 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationUITests" */ = {
+		D78ED9572E27CA9C0041D8C7 /* Build configuration list for PBXNativeTarget "PortsAndAdaptersPresentationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D755CA382E29C46600A09198 /* Debug */,
-				D755CA392E29C46600A09198 /* Release */,
+				D78ED9582E27CA9C0041D8C7 /* Debug */,
+				D78ED9592E27CA9C0041D8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D755CA4D2E29C5DF00A09198 /* Friends */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Friends;
+		};
+		D755CA4F2E29C5E400A09198 /* UserProfile */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserProfile;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D755CA052E29C46400A09198 /* Project object */;
+	rootObject = D78ED9252E27CA9A0041D8C7 /* Project object */;
 }

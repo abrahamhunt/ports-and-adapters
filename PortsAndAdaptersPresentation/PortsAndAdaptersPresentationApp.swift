@@ -2,16 +2,18 @@
 //  PortsAndAdaptersPresentationApp.swift
 //  PortsAndAdaptersPresentation
 //
-//  Created by Abe Hunt on 7/17/25.
+//  Created by Abe Hunt on 7/16/25.
 //
 
 import SwiftUI
 
 @main
 struct PortsAndAdaptersPresentationApp: App {
+    let model = AppRootScreenModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootScreen(viewModel: model)
         }
     }
 }
