@@ -12,6 +12,8 @@ private struct UserProfileScreen: View {
     
     var body: some View {
         VStack {
+            Text("User Profile Screen")
+            
             HStack {
                 AsyncImage(url: viewModel.user.photoURL)
                     .frame(width: 40, height: 40)
@@ -31,8 +33,12 @@ private struct UserProfileScreen: View {
                     .clipShape(.capsule)
             }
         }
-        .sheet(item: $viewModel.friendsModel, content: {
-            Text($0.friends.map { $0.name }.joined(separator: ","))
+        .sheet(item: $viewModel.friendsModel, content: { friendsPlaceholder in
+            VStack {
+                Text("This should be the friends page showing these friends:")
+                
+                Text(friendsPlaceholder.friends.map { $0.name }.joined(separator: ","))
+            }
         })
     }
 }
