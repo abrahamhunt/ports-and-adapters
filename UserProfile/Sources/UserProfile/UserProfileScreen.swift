@@ -25,14 +25,9 @@ private extension UserProfileScreenModel {
                         Text(viewModel.user.handle)
                     }
                 }
-                Button {
+                viewModel.adapters.friendsButton(user: viewModel.user, action: {
                     viewModel.didTapFriends()
-                } label: {
-                    Text("Friends")
-                        .padding(16)
-                        .background(.green)
-                        .clipShape(.capsule)
-                }
+                })
             }
             .sheet(item: $viewModel.friendsModel) {
                 $0.makeView()
