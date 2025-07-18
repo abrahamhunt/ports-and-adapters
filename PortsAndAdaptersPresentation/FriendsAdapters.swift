@@ -10,6 +10,7 @@ import UIInterface
 import User
 
 typealias FriendsScreenModel = Friends.FriendsScreenModel<FriendsAdapters>
+typealias FriendsButton = Friends.FriendsButton // Added so that UserAdapters.swift needn't import Friends
 
 final class FriendsAdapters: FriendsPorts {
     func makeProfile(user: User) -> some ViewMaker {

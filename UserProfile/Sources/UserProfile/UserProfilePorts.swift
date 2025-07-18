@@ -7,12 +7,15 @@
 
 import UIInterface
 import Foundation
+import SwiftUI
 
 @MainActor
 public protocol UserProfilePorts: AnyObject {
     associatedtype User: UserInProfileModule
     associatedtype FriendsModel: ViewMaker
+    associatedtype FriendsButton: View
     
+    func friendsButton(user: User, action: @escaping () -> Void) -> FriendsButton
     func friendsModel(user: User) -> FriendsModel
 }
 
