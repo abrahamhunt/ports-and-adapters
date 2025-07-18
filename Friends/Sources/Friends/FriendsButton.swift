@@ -16,6 +16,7 @@ public struct FriendsButton: View {
     
     public var body: some View {
         Button(action: action, label: {
+            // Assuming different teams own Friends and UserProfile we now have a button that the Friends team can update without needing to involve UserProfile reviewers. Additionally if other modules used this button they wouldn't need to review either.
             Text("Friends")
                 .padding(16)
                 .background(.green)
