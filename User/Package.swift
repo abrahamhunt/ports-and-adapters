@@ -4,29 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "Friends",
+    name: "User",
     platforms: [
         .iOS(.v17),
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "Friends",
-            targets: ["Friends"]),
-    ],
-    dependencies: [
-        .package(path: "../UIInterface")
+            name: "User",
+            targets: ["User"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Friends",
-            dependencies: ["UIInterface"]
-        ),
+            name: "User"),
         .testTarget(
-            name: "FriendsTests",
-            dependencies: ["Friends"]
+            name: "UserTests",
+            dependencies: ["User"]
         ),
     ]
 )

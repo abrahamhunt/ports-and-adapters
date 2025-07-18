@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4D2E29C5DF00A09198 /* Friends */; };
 		D755CA502E29C5E400A09198 /* UserProfile in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4F2E29C5E400A09198 /* UserProfile */; };
+		D7BB92CF2E2A905C00A19F71 /* UIInterface in Frameworks */ = {isa = PBXBuildFile; productRef = D7BB92CE2E2A905C00A19F71 /* UIInterface */; };
+		D7BB92D12E2A906000A19F71 /* User in Frameworks */ = {isa = PBXBuildFile; productRef = D7BB92D02E2A906000A19F71 /* User */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		D78ED9472E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78ED95B2E27CB170041D8C7 /* Friends */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Friends; sourceTree = "<group>"; };
 		D78ED95C2E27CB370041D8C7 /* UserProfile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UserProfile; sourceTree = "<group>"; };
+		D7BB92CC2E2A8EE000A19F71 /* User */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = User; sourceTree = "<group>"; };
+		D7BB92CD2E2A8EFA00A19F71 /* UIInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIInterface; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -61,6 +65,8 @@
 			files = (
 				D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */,
 				D755CA502E29C5E400A09198 /* UserProfile in Frameworks */,
+				D7BB92CF2E2A905C00A19F71 /* UIInterface in Frameworks */,
+				D7BB92D12E2A906000A19F71 /* User in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,8 @@
 		D78ED9242E27CA9A0041D8C7 = {
 			isa = PBXGroup;
 			children = (
+				D7BB92CD2E2A8EFA00A19F71 /* UIInterface */,
+				D7BB92CC2E2A8EE000A19F71 /* User */,
 				D78ED95C2E27CB370041D8C7 /* UserProfile */,
 				D78ED95B2E27CB170041D8C7 /* Friends */,
 				D78ED92F2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */,
@@ -133,6 +141,8 @@
 			packageProductDependencies = (
 				D755CA4D2E29C5DF00A09198 /* Friends */,
 				D755CA4F2E29C5E400A09198 /* UserProfile */,
+				D7BB92CE2E2A905C00A19F71 /* UIInterface */,
+				D7BB92D02E2A906000A19F71 /* User */,
 			);
 			productName = PortsAndAdaptersPresentation;
 			productReference = D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */;
@@ -582,6 +592,14 @@
 		D755CA4F2E29C5E400A09198 /* UserProfile */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UserProfile;
+		};
+		D7BB92CE2E2A905C00A19F71 /* UIInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIInterface;
+		};
+		D7BB92D02E2A906000A19F71 /* User */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = User;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

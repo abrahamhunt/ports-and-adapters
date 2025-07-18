@@ -7,39 +7,37 @@
 
 import SwiftUI
 
-private struct UserProfileScreen: View {
-    @ObservedObject var viewModel: UserProfileScreenModel
-    
-    var body: some View {
-        VStack {
-            Text("User Profile Screen")
-            
-            HStack {
-                AsyncImage(url: viewModel.user.photoURL)
-                    .frame(width: 40, height: 40)
-                    .clipShape(.circle)
+private extension UserProfileScreenModel {
+    private struct UserProfileScreen: View {
+        @ObservedObject var viewModel: UserProfileScreenModel
+        
+        var body: some View {
+            VStack {
+                Text("User Profile Screen")
                 
-                VStack {
-                    Text(viewModel.user.name)
-                    Text(viewModel.user.handle)
+                HStack {
+                    AsyncImage(url: viewModel.user.photoURL)
+                        .frame(width: 40, height: 40)
+                        .clipShape(.circle)
+                    
+                    VStack {
+                        Text(viewModel.user.name)
+                        Text(viewModel.user.handle)
+                    }
+                }
+                Button {
+                    viewModel.didTapFriends()
+                } label: {
+                    Text("Friends")
+                        .padding(16)
+                        .background(.green)
+                        .clipShape(.capsule)
                 }
             }
-            Button {
-                viewModel.didTapFriends()
-            } label: {
-                Text("Friends")
-                    .padding(16)
-                    .background(.green)
-                    .clipShape(.capsule)
+            .sheet(item: $viewModel.friendsModel) {
+                $0.makeView()
             }
         }
-        .sheet(item: $viewModel.friendsModel, content: { friendsPlaceholder in
-            VStack {
-                Text("This should be the friends page showing these friends:")
-                
-                Text(friendsPlaceholder.friends.map { $0.name }.joined(separator: ","))
-            }
-        })
     }
 }
 

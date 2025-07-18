@@ -14,11 +14,15 @@ let package = Package(
             name: "UserProfile",
             targets: ["UserProfile"]),
     ],
+    dependencies: [
+        .package(path: "../UIInterface")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "UserProfile"),
+            name: "UserProfile",
+            dependencies: ["UIInterface"]),
         .testTarget(
             name: "UserProfileTests",
             dependencies: ["UserProfile"]
