@@ -6,8 +6,7 @@
 //
 
 import Foundation
-import UserProfile
-import Friends
+import User
 
 @MainActor
 final class AppRootScreenModel: ObservableObject {
@@ -26,10 +25,10 @@ final class AppRootScreenModel: ObservableObject {
     @Published var sheet: Sheet?
     
     func didTapUserProfile() {
-        sheet = .userProfile(.makeDefault())
+        sheet = .userProfile(.init(adapters: .init(), user: User.bob))
     }
     
     func didTapFriends() {
-        sheet = .friends(.makeDefault())
+        sheet = .friends(.init(adapters: .init(), friends: [User.bob, User.frank, User.jim]))
     }
 }

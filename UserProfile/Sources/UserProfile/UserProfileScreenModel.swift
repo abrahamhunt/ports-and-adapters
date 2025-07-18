@@ -6,28 +6,20 @@
 //
 
 import Foundation
-
-struct FriendsPlaceholder: Identifiable, Sendable {
-    let id = UUID()
-    let friends: [UserInProfileModule]
-    
-    static let testData: Self = .init(friends: [.bob])
-}
+import UIInterface
 
 @MainActor
-public final class UserProfileScreenModel: ObservableObject {
-    @Published var friendsModel: FriendsPlaceholder?
-    let user: UserInProfileModule
+public final class UserProfileScreenModel<Adapters: UserProfilePorts>: ObservableObject, ViewMaker {
+    @Published var friendsModel: Adapters.FriendsModel?
+    let user: Adapters.User
+    let adapters: Adapters
 
-    init(user: UserInProfileModule) {
+    public init(adapters: Adapters, user: Adapters.User) {
+        self.adapters = adapters
         self.user = user
     }
     
     func didTapFriends() {
-        friendsModel = .init(friends: user.friends)
-    }
-    
-    public static func makeDefault() -> UserProfileScreenModel {
-        UserProfileScreenModel(user: .bob)
+        friendsModel = adapters.friendsModel(user: user)
     }
 }

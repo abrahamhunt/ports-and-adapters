@@ -6,27 +6,21 @@
 //
 
 import Foundation
-
-struct UserProfilePlaceholder: Identifiable {
-    let id = UUID()
-    let user: UserInFriendsModule
-}
+import SwiftUI
 
 @MainActor
-public final class FriendsScreenModel: ObservableObject {
-    @Published var profile: UserProfilePlaceholder?
+public final class FriendsScreenModel<Adapters: FriendsPorts>: ObservableObject {
+    @Published var profile: Adapters.UserProfileModel?
     
-    let friends: [UserInFriendsModule]
+    let friends: [Adapters.User]
+    let adapters: Adapters
     
-    init(friends: [UserInFriendsModule]) {
+    public init(adapters: Adapters, friends: [Adapters.User]) {
+        self.adapters = adapters
         self.friends = friends
     }
     
-    func didTap(user: UserInFriendsModule) {
-        profile = .init(user: user)
-    }
-
-    public static func makeDefault() -> FriendsScreenModel {
-        .init(friends: [.bob, .jim, .frank])
+    func didTap(user: Adapters.User) {
+        profile = adapters.makeProfile(user: user)
     }
 }
