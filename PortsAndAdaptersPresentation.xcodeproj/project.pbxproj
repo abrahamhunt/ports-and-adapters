@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4D2E29C5DF00A09198 /* Friends */; };
 		D755CA502E29C5E400A09198 /* UserProfile in Frameworks */ = {isa = PBXBuildFile; productRef = D755CA4F2E29C5E400A09198 /* UserProfile */; };
+		D77DE92E2E2A13E500AD3AF8 /* User in Frameworks */ = {isa = PBXBuildFile; productRef = D77DE92D2E2A13E500AD3AF8 /* User */; };
+		D77DE9362E2A147A00AD3AF8 /* UIInterface in Frameworks */ = {isa = PBXBuildFile; productRef = D77DE9352E2A147A00AD3AF8 /* UIInterface */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D76FEFEB2E2A8B6F004AFFAD /* UIInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UIInterface; sourceTree = "<group>"; };
+		D76FEFEC2E2A8B6F004AFFAD /* User */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = User; sourceTree = "<group>"; };
 		D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortsAndAdaptersPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78ED93D2E27CA9C0041D8C7 /* PortsAndAdaptersPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D78ED9472E27CA9C0041D8C7 /* PortsAndAdaptersPresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortsAndAdaptersPresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +65,8 @@
 			files = (
 				D755CA4E2E29C5DF00A09198 /* Friends in Frameworks */,
 				D755CA502E29C5E400A09198 /* UserProfile in Frameworks */,
+				D77DE9362E2A147A00AD3AF8 /* UIInterface in Frameworks */,
+				D77DE92E2E2A13E500AD3AF8 /* User in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,8 @@
 		D78ED9242E27CA9A0041D8C7 = {
 			isa = PBXGroup;
 			children = (
+				D76FEFEB2E2A8B6F004AFFAD /* UIInterface */,
+				D76FEFEC2E2A8B6F004AFFAD /* User */,
 				D78ED95C2E27CB370041D8C7 /* UserProfile */,
 				D78ED95B2E27CB170041D8C7 /* Friends */,
 				D78ED92F2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation */,
@@ -133,6 +141,8 @@
 			packageProductDependencies = (
 				D755CA4D2E29C5DF00A09198 /* Friends */,
 				D755CA4F2E29C5E400A09198 /* UserProfile */,
+				D77DE92D2E2A13E500AD3AF8 /* User */,
+				D77DE9352E2A147A00AD3AF8 /* UIInterface */,
 			);
 			productName = PortsAndAdaptersPresentation;
 			productReference = D78ED92D2E27CA9A0041D8C7 /* PortsAndAdaptersPresentation.app */;
@@ -582,6 +592,14 @@
 		D755CA4F2E29C5E400A09198 /* UserProfile */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UserProfile;
+		};
+		D77DE92D2E2A13E500AD3AF8 /* User */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = User;
+		};
+		D77DE9352E2A147A00AD3AF8 /* UIInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIInterface;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
