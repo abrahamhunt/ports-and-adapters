@@ -1,8 +1,13 @@
 # ports-and-adapters
 Illustrates a Swift Type-safe Module Architecture called Ports and Adapters
 
-Code that accompanies presentation made to Utah Valley Cocoaheads
+Code that accompanies presentation made to Utah Valley CocoaHeads
 [Raw slide deck](https://docs.google.com/presentation/d/1LxNfmQRcJvRhQ2Ap4lRjM9WN--N6BFJn4OrBcyXndnI/edit?usp=sharing)
+
+Utah Valley CocoaHeads Presentation:
+Presentation View: https://youtu.be/1NFFUesZ8rM
+Presenter View: https://www.youtube.com/watch?v=2MjWe3vZ2P4
+
 
 Video: TBD
 
